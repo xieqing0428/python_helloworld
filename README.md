@@ -10,13 +10,10 @@
   继承父类__init__函数时，使用
   `super().__init__()`而不是`super.__init__()`  
   #### [9-8](./Chapter_09/Exercise_9_8.py):
-  大型类拆分成小型类后
+  调用类的时候，即使没有参数传入也不可以将括号删去
   ```
-    def __init__(self, first_name, last_name, user_info):
-        super().__init__(first_name, last_name, user_info)
         self.privileges = Privileges()
   ```
-  类的括号删去后调用相关函数时会出错
   ### 第十章
   #### [10-12](./Chapter_10/Exercise_10_12.py):
   处理多个异常，可将异常放在元组中
