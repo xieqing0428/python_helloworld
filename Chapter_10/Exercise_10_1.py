@@ -14,7 +14,7 @@
 
 """
 
-fileName = 'Txt_Documents/learning_python.txt'
+fileName = 'Example/learning_python.txt'
 
 with open(fileName) as file_object:
     contents = file_object.read()

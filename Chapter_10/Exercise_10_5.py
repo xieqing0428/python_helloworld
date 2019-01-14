@@ -11,7 +11,7 @@
 
 """
 
-fileName = 'Txt_Documents/why_coding.txt'
+fileName = 'Example/why_coding.txt'
 
 print("您为什么喜欢编程呢？(如需退出请输入Exit) \n")
 n = 0

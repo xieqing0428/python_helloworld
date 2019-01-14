@@ -13,7 +13,7 @@
 """
 import json
 
-fileName = "Txt_Documents/f_nums.json"
+fileName = "Example/f_nums.json"
 num = input("请输入你最喜欢的数字\n")
 
 with open(fileName, 'w') as file_nums:

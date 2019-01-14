@@ -23,4 +23,13 @@
     except (FileNotFoundError, json.decoder.JSONDecodeError):
         --snip--
   ```
+  ### 第十一章
+  #### [11-1](./Chapter_11/Exercise_11_1.py):
+  勘误：
+  ```diff
+  - unittest.main()
+  + if __name__ == '__main__':
+  +     unittest.main()
+  ```
+  直接使用`unittest.main()`会报错
   ##### 持续更新中……

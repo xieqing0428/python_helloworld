@@ -15,7 +15,7 @@
 
 import json
 
-fileName = "Txt_Documents/f_nums.json"
+fileName = "Example/f_nums.json"
 
 try:
     with open(fileName) as file_nums:

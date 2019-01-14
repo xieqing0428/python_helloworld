@@ -11,7 +11,7 @@
 
 """
 
-fileName = 'Txt_Documents/guest.txt'
+fileName = 'Example/guest.txt'
 
 guestName = input("请输入您的姓名：")
 with open(fileName, 'w') as file_object:

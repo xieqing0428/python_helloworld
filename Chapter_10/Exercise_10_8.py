@@ -13,9 +13,9 @@
 将其中一个文件移到另一个地方，并确认except代码块中的代码将正确地执行
 
 """
-fileCats = "Txt_Documents/cats.txt"
-fileDogs = "Txt_Documents/dogs.txt"
-fileErrors = "Txt_Documents/errors.txt"
+fileCats = "Example/cats.txt"
+fileDogs = "Example/dogs.txt"
+fileErrors = "Example/errors.txt"
 
 with open(fileCats) as file_cats:
     for line in file_cats:

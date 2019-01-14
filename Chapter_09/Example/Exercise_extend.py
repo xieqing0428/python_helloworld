@@ -8,7 +8,7 @@
 
 """
 
-from HelloWorld.Chapter_09.Exercise_plus import User
+from HelloWorld.Chapter_09.Example.Exercise_plus import User
 
 
 class Admin(User):
