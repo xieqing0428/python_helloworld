@@ -30,13 +30,11 @@
     import unittest
     from HelloWorld.Chapter_11.Example.city_functions import city_country
 
-
     class TestCityFunctionsCase(unittest.TestCase):
         """测试city_functions功能"""
         def test_city_country(self):
             result = city_country('Santiago', 'Chile')
             self.assertEqual(result, "Santiago, Chile")
-
 
   - unittest.main()
   
