@@ -19,7 +19,7 @@
 
 """
 import unittest
-from HelloWorld.Section_I.Chapter_11.Example import city_country
+from HelloWorld.Section_I.Chapter_11.Example.city_functions import city_country
 
 
 class TestCityFunctionsCase(unittest.TestCase):

@@ -10,8 +10,10 @@
 在为完成练习9-3而编写的User类中，添加一个名为login_attempts 的属性。
 编写一个名为increment_login_attempts()的方法，它将属性login_attempts的值加1。
 再编写一个名为reset_login_attempts()的方法，它将属性login_attempts的值重置为0
-根据User类创建一个实例，再调用方法increment_login_attempts()多次。打印属性login_attempts的值，确认它被正确地递增；
-然后，调用方法reset_login_attempts()，并再次打印属性login_attempts的值，确认它被重置为0
+根据User类创建一个实例，再调用方法increment_login_attempts()多次。
+打印属性login_attempts的值，确认它被正确地递增；
+然后，调用方法reset_login_attempts()，
+并再次打印属性login_attempts的值，确认它被重置为0
 """
 
 

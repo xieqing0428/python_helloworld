@@ -7,7 +7,8 @@
 @time: 2019-01-12 20:46
 
 9-8 权限：
-编写一个名为Privileges的类，它只有一个属性——privileges，其中存储了练习9-7所说的字符串列表。
+编写一个名为Privileges的类，它只有一个属性——privileges，
+其中存储了练习9-7所说的字符串列表。
 将方法show_privileges()移到这个类中。
 在Admin类中，将一个Privileges实例用作其属性。
 创建一个Admin实例，并使用方法show_privileges()来显示其权限。
