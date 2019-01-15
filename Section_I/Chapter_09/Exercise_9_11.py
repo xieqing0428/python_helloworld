@@ -11,7 +11,7 @@
 再创建一个文件，在其中创建一个Admin实例并对其调用方法show_privileges()，以确认一切都能正确地运行。
 
 """
-from HelloWorld.Chapter_09.Exercise_9_8 import Admin
+from HelloWorld.Section_I.Chapter_09 import Admin
 
 admin = Admin('xie', 'qing', 'dalao')
 admin.privileges.show_privileges()

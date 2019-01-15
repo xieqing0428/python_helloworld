@@ -20,7 +20,7 @@
 
 """
 import unittest
-from HelloWorld.Chapter_11.Example.city_functions_plus import city_country, city_country_now, city_country_population
+from HelloWorld.Section_I.Chapter_11.Example import city_country, city_country_now, city_country_population
 
 
 class TestCityFunctionsCase(unittest.TestCase):

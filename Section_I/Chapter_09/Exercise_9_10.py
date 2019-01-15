@@ -12,7 +12,7 @@
 
 """
 
-from HelloWorld.Chapter_09.Example.Exercise_plus import Restaurant
+from HelloWorld.Section_I.Chapter_09 import Restaurant
 
 restaurant = Restaurant('饭店', '炒菜')
 restaurant.describe_restaurant()

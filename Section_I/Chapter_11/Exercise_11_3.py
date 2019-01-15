@@ -17,7 +17,7 @@
 
 """
 import unittest
-from HelloWorld.Chapter_11.Example.Employees import Employee
+from HelloWorld.Section_I.Chapter_11.Example import Employee
 
 
 class TestEmployee(unittest.TestCase):

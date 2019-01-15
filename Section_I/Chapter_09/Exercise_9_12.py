@@ -12,7 +12,7 @@
 
 """
 
-from HelloWorld.Chapter_09.Example.Exercise_extend import Admin
+from HelloWorld.Section_I.Chapter_09 import Admin
 
 admin = Admin('xie', 'qing', 'dalao')
 admin.privileges.show_privileges()
