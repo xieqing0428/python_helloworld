@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_2.py
+@file: Exercise_10_02.py
 @time: 2019-01-13 18:10
 
 10-2 C语言学习笔记：可使用方法replace()将字符串中的特定单词都替换为另一个单词。

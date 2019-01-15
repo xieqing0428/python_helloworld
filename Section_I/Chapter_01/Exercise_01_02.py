@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: 1-2.py
+@file: Exercise_01_02.py
 @time: 2019-01-07 21:26
 
 1-2 输入错误：

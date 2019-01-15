@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_4_10.py
+@file: Exercise_04_10.py
 @time: 2019-01-15 11:53
 
 4-10 切片：

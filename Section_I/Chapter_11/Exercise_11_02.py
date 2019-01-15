@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_11_2.py
+@file: Exercise_11_02.py
 @time: 2019-01-14 15:17
 
 11-2 人口数量：

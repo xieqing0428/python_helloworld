@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_2_5.py
+@file: Exercise_02_05.py
 @time: 2019-01-14 19:21
 
 2-5 名言：找一句你钦佩的名人说的名言，将这个名人的姓名和他的名言打印出来。

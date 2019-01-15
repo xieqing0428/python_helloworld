@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_3_10.py
+@file: Exercise_03_10.py
 @time: 2019-01-15 10:41
 
 3-10 尝试使用各个函数：

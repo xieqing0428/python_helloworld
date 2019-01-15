@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_8.py
+@file: Exercise_10_08.py
 @time: 2019-01-13 21:13
 
 10-8 猫和狗：
@@ -15,6 +15,9 @@
 将其中一个文件移到另一个地方，并确认except代码块中的代码将正确地执行
 
 """
+
+# 诶嘿嘿 10-8 幸运数字
+
 fileCats = "Example/cats.txt"
 fileDogs = "Example/dogs.txt"
 fileErrors = "Example/errors.txt"

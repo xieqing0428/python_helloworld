@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_5.py
+@file: Exercise_10_05.py
 @time: 2019-01-13 18:33
 
 10-5 关于编程的调查：

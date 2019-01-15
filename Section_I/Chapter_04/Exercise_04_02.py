@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_4_2.py
+@file: Exercise_04_02.py
 @time: 2019-01-15 11:10
 
 4-2 动物：

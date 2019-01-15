@@ -2,6 +2,34 @@
 === 
 最近在看《Python编程 从入门到实践》同步更新课后练习进度，在最后把制作的思维导图放出～
 
+  ### 第六章
+  #### [6-1](Section_I/Chapter_06/Exercise_06_01.py): 
+  PEP 8 字典缩进方式  
+  方法一： 
+  ```
+  friends = {'first_name': 'ming',
+             'last_name': 'xiao',
+             'age': '18',
+             'city': 'nanjing'}
+  ``` 
+  方法二：  
+  ```
+  friends = {
+      'first_name': 'ming',
+      'last_name': 'xiao',
+      'age': '18',
+      'city': 'nanjing'
+  }
+  ```
+  或者：
+  ```
+  friends = {
+      'first_name': 'ming',
+      'last_name': 'xiao',
+      'age': '18',
+      'city': 'nanjing'
+      }
+  ```
   ### 第九章
   #### [9-1](Section_I/Chapter_09/Exercise_09_01.py): 
   创建无参数类的时候可以把类的括号去掉`class User:`   

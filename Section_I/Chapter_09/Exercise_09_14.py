@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_9_14.py
+@file: Exercise_09_14.py
 @time: 2019-01-13 16:31
 
 9-14 骰子：

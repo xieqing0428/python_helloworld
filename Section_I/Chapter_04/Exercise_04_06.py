@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_4_6.py
+@file: Exercise_04_06.py
 @time: 2019-01-15 11:35
 
 4-6 奇数：

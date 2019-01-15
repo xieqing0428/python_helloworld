@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: 9-4.py
+@file: Exercise_09_04.py
 @time: 2019-01-12 16:54
 
 9-4 就餐人数：
