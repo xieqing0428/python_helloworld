@@ -13,6 +13,13 @@
 
 """
 
-print("Hello World!")123
+# print("Hello World!")123
 
-"""错误如下"""
+"""
+错误如下：
+
+print("Hello World!")123
+                           ^
+SyntaxError: invalid syntax
+
+"""
