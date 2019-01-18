@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_09_11.py
+@file: exercise_09_11.py
 @time: 2019-01-12 22:33
 
 9-11 导入Admin类：
@@ -12,7 +12,7 @@
 以确认一切都能正确地运行。
 
 """
-from HelloWorld.Section_I.Chapter_09 import Admin
+from helloworld.section_i.chapter_09.example.exercise_extend import Admin
 
 admin = Admin('xie', 'qing', 'dalao')
 admin.privileges.show_privileges()

@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_07_05.py
+@file: exercise_07_05.py
 @time: 2019-01-16 22:45
 
 7-5 电影票：

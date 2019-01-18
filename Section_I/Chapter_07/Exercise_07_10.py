@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_07_10.py
+@file: exercise_07_10.py
 @time: 2019-01-16 23:39
 
 7-10 梦想的度假胜地：

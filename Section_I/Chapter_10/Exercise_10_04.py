@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_04.py
+@file: exercise_10_04.py
 @time: 2019-01-13 18:23
 
 10-4 访客名单：
@@ -13,7 +13,7 @@
 
 """
 
-fileName = 'Example/guest_book.txt'
+fileName = 'example/guest_book.txt'
 
 while True:
     guestName = input("请输入您的姓名：(如需退出请输入Exit) \n")

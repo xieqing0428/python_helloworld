@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_02_07.py
+@file: exercise_02_07.py
 @time: 2019-01-14 19:26
 
 2-7 剔除人名中的空白：

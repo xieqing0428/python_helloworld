@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_04_09.py
+@file: exercise_04_09.py
 @time: 2019-01-15 11:40
 
 4-9 立方解析：

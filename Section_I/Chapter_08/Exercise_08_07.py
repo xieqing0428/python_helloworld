@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_08_07.py
+@file: exercise_08_07.py
 @time: 2019-01-17 19:55
 
 8-7 专辑：

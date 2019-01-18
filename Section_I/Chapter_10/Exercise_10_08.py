@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_08.py
+@file: exercise_10_08.py
 @time: 2019-01-13 21:13
 
 10-8 猫和狗：
@@ -18,9 +18,9 @@
 
 # 诶嘿嘿 10-8 幸运数字
 
-fileCats = "Example/cats.txt"
-fileDogs = "Example/dogs.txt"
-fileErrors = "Example/errors.txt"
+fileCats = "example/cats.txt"
+fileDogs = "example/dogs.txt"
+fileErrors = "example/errors.txt"
 
 with open(fileCats) as file_cats:
     for line in file_cats:

@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_09_02.py
+@file: exercise_09_02.py
 @time: 2019-01-12 15:35
 
 9-2 三家餐馆：

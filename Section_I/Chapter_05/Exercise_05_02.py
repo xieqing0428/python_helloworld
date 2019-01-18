@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_05_02.py
+@file: exercise_05_02.py
 @time: 2019-01-15 17:23
 
 5-2 更多的条件测试：

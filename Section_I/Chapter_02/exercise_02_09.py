@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_02_09.py
+@file: exercise_02_09.py
 @time: 2019-01-14 19:37
 
 2-9 最喜欢的数字：

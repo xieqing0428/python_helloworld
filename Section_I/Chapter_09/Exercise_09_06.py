@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_09_06.py
+@file: exercise_09_06.py
 @time: 2019-01-12 20:21
 
 9-6 冰淇淋小店：

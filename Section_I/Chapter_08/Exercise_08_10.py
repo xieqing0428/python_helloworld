@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_08_10.py
+@file: exercise_08_10.py
 @time: 2019-01-17 20:30
 
 8-10 了不起的魔术师：

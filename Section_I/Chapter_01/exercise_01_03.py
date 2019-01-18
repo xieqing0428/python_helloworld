@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_01_03.py
+@file: exercise_01_03.py
 @time: 2019-01-07 21:32
 
 1-3 无穷的技艺：

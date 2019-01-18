@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_01.py
+@file: exercise_10_01.py
 @time: 2019-01-13 17:42
 
 10-1 Python学习笔记：
@@ -16,7 +16,7 @@
 
 """
 
-fileName = 'Example/learning_python.txt'
+fileName = 'example/learning_python.txt'
 
 with open(fileName) as file_object:
     contents = file_object.read()

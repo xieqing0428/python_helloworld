@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_06_11.py
+@file: exercise_06_11.py
 @time: 2019-01-15 22:20
 
 6-11 城市：

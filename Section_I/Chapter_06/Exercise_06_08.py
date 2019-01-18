@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_06_08.py
+@file: exercise_06_08.py
 @time: 2019-01-15 21:56
 
 6-8 宠物：

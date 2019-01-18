@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_11_01.py
+@file: exercise_11_01.py
 @time: 2019-01-14 10:51
 
 11-1 城市和国家：
@@ -19,7 +19,7 @@
 
 """
 import unittest
-from HelloWorld.Section_I.Chapter_11.Example.city_functions import city_country
+from helloworld.section_i.chapter_11.example.city_functions import city_country
 
 
 class TestCityFunctionsCase(unittest.TestCase):

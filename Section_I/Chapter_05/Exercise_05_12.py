@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_05_12.py
+@file: exercise_05_12.py
 @time: 2019-01-15 20:33
 
 5-12 设置if语句的格式：

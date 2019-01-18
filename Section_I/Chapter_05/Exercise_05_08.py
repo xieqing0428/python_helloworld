@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_05_08.py
+@file: exercise_05_08.py
 @time: 2019-01-15 20:08
 
 5-8 以特殊方式跟管理员打招呼：

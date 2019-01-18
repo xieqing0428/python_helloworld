@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_03_02.py
+@file: exercise_03_02.py
 @time: 2019-01-14 20:04
 
 3-2 问候语：

@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_08_04.py
+@file: exercise_08_04.py
 @time: 2019-01-17 19:44
 
 8-4 大号T恤：

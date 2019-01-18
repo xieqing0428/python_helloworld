@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_05.py
+@file: exercise_10_05.py
 @time: 2019-01-13 18:33
 
 10-5 关于编程的调查：
@@ -12,7 +12,7 @@
 
 """
 
-fileName = 'Example/why_coding.txt'
+fileName = 'example/why_coding.txt'
 
 print("您为什么喜欢编程呢？(如需退出请输入Exit) \n")
 n = 0

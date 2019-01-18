@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_06_03.py
+@file: exercise_06_03.py
 @time: 2019-01-15 21:02
 
 6-3 词汇表：

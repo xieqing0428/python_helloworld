@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_13.py
+@file: exercise_10_13.py
 @time: 2019-01-13 23:03
 
 10-13 验证用户：
@@ -18,7 +18,7 @@ import json
 
 def get_stored_username():
     """如果存储了用户名，就获取它"""
-    filename = 'Example/username.json'
+    filename = 'example/username.json'
     try:
         with open(filename) as f_obj:
             username = json.load(f_obj)
@@ -31,7 +31,7 @@ def get_stored_username():
 def get_new_username():
     """提示用户输入用户名"""
     username = input("What is your name? \n")
-    filename = 'Example/username.json'
+    filename = 'example/username.json'
     with open(filename, 'w') as f_obj:
         json.dump(username, f_obj)
     return username

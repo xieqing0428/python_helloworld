@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_11.py
+@file: exercise_10_11.py
 @time: 2019-01-13 22:46
 
 10-11 喜欢的数字：
@@ -14,7 +14,7 @@
 """
 import json
 
-fileName = "Example/f_nums.json"
+fileName = "example/f_nums.json"
 num = input("请输入你最喜欢的数字\n")
 
 with open(fileName, 'w') as file_nums:

@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_04_07.py
+@file: exercise_04_07.py
 @time: 2019-01-15 11:36
 
 4-7 3的倍数：

@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_11_02.py
+@file: exercise_11_02.py
 @time: 2019-01-14 15:17
 
 11-2 人口数量：
@@ -21,7 +21,7 @@
 
 """
 import unittest
-from HelloWorld.Section_I.Chapter_11.Example.city_functions_plus import \
+from helloworld.section_i.chapter_11.example.city_functions_plus import \
     city_country, \
     city_country_now, city_country_population
 

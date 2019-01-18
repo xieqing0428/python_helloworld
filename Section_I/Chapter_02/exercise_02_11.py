@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_02_11.py
+@file: exercise_02_11.py
 @time: 2019-01-14 19:56
 
 2-11 Python之禅：

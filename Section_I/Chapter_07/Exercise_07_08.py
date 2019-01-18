@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_07_08.py
+@file: exercise_07_08.py
 @time: 2019-01-16 23:29
 
 7-8 熟食店：

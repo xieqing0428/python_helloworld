@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_07_07.py
+@file: exercise_07_07.py
 @time: 2019-01-16 23:28
 
 7-7 无限循环：

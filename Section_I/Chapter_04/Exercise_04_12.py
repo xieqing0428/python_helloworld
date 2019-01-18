@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_04_12.py
+@file: exercise_04_12.py
 @time: 2019-01-15 14:05
 
 4-12 使用多个循环：

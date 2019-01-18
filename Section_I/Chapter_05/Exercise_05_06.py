@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_05_06.py
+@file: exercise_05_06.py
 @time: 2019-01-15 19:53
 
 5-6 人生的不同阶段：

@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_09.py
+@file: exercise_10_09.py
 @time: 2019-01-13 21:22
 
 10-9 沉默的猫和狗：
@@ -11,7 +11,7 @@
 
 """
 
-fileErrors = "Example/errors.txt"
+fileErrors = "example/errors.txt"
 
 try:
     with open(fileErrors) as file_errors:

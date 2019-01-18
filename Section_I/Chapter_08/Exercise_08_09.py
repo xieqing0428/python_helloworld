@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_08_09.py
+@file: exercise_08_09.py
 @time: 2019-01-17 20:09
 
 8-9 魔术师：

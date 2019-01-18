@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_12.py
+@file: exercise_10_12.py
 @time: 2019-01-13 22:53
 
 10-12 记住喜欢的数字：
@@ -15,7 +15,7 @@
 
 import json
 
-fileName = "Example/f_nums.json"
+fileName = "example/f_nums.json"
 
 try:
     with open(fileName) as file_nums:

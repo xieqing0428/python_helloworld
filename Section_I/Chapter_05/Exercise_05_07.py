@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_05_07.py
+@file: exercise_05_07.py
 @time: 2019-01-15 19:56
 
 5-7 喜欢的水果：

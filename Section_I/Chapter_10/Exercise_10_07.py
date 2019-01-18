@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_07.py
+@file: exercise_10_07.py
 @time: 2019-01-13 20:57
 
 10-7 加法计算器：

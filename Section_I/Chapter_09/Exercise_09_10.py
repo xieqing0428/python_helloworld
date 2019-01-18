@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_09_10.py
+@file: exercise_09_10.py
 @time: 2019-01-12 21:41
 
 9-10 导入Restaurant类：
@@ -13,7 +13,7 @@
 
 """
 
-from HelloWorld.Section_I.Chapter_09 import Restaurant
+from helloworld.section_i.chapter_09.example.exercise_plus import Restaurant
 
 restaurant = Restaurant('饭店', '炒菜')
 restaurant.describe_restaurant()

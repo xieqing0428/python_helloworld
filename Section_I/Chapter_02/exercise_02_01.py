@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_02_01.py
+@file: exercise_02_01.py
 @time: 2019-01-14 17:23
 
 2-1 简单消息：

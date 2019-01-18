@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_06_12.py
+@file: exercise_06_12.py
 @time: 2019-01-15 22:28
 
 6-12 扩展：

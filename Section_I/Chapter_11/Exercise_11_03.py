@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_11_03.py
+@file: exercise_11_03.py
 @time: 2019-01-14 16:47
 
 11-3 雇员：
@@ -17,7 +17,7 @@
 
 """
 import unittest
-from HelloWorld.Section_I.Chapter_11.Example.Employees import Employee
+from helloworld.section_i.chapter_11.example.employees import Employee
 
 
 class TestEmployee(unittest.TestCase):

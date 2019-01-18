@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_06_09.py
+@file: exercise_06_09.py
 @time: 2019-01-15 22:13
 
 6-9 喜欢的地方：

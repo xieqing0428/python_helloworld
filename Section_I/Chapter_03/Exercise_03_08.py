@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_03_08.py
+@file: exercise_03_08.py
 @time: 2019-01-15 10:29
 
 3-8 放眼世界：想出至少5个你渴望去旅游的地方。

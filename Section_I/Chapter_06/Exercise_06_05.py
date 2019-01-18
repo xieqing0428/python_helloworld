@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_06_05.py
+@file: exercise_06_05.py
 @time: 2019-01-15 21:23
 
 6-5 河流：

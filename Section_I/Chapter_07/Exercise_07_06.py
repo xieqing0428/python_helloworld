@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_07_06.py
+@file: exercise_07_06.py
 @time: 2019-01-16 22:49
 
 7-6 三个出口：

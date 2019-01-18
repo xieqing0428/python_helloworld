@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_05_04.py
+@file: exercise_05_04.py
 @time: 2019-01-15 19:47
 
 5-4 外星人颜色#2：

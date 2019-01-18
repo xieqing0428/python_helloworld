@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_08_15.py
+@file: exercise_08_15.py
 @time: 2019-01-17 21:20
 
 8-15 打印模型：
@@ -11,7 +11,7 @@
 在print_models.py的开头编写一条import语句，并修改这个文件以使用导入的函数
 
 """
-import HelloWorld.Section_I.Chapter_08.Example.printing_functions as module
+import helloworld.section_i.chapter_08.example.printing_functions as module
 
 unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
 completed_models = []

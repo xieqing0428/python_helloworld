@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_05_01.py
+@file: exercise_05_01.py
 @time: 2019-01-15 17:21
 
 5-1 条件测试：

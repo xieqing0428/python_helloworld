@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_02_04.py
+@file: exercise_02_04.py
 @time: 2019-01-14 19:19
 
 2-4 调整名字的大小写：

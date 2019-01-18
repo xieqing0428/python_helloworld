@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_08_03.py
+@file: exercise_08_03.py
 @time: 2019-01-17 19:36
 
 8-3 T恤：

@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_08_12.py
+@file: exercise_08_12.py
 @time: 2019-01-17 20:59
 
 8-12 三明治：

@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_08_02.py
+@file: exercise_08_02.py
 @time: 2019-01-17 19:34
 
 8-2 喜欢的图书：

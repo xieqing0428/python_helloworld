@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_04_13.py
+@file: exercise_04_13.py
 @time: 2019-01-15 14:59
 
 4-13 自助餐：

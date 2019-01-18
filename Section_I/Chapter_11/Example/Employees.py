@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Employees.py
+@file: employees.py
 @time: 2019-01-14 16:48
 
 编写一个名为Employee的类，其方法__init__()接受名、姓和年薪，并将它们都存储在属性中。

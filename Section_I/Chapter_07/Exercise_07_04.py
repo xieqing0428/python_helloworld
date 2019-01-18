@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_07_04.py
+@file: exercise_07_04.py
 @time: 2019-01-16 22:17
 
 7-4 比萨配料：

@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_10.py
+@file: exercise_10_10.py
 @time: 2019-01-13 21:41
 
 10-10 常见单词：
@@ -24,7 +24,7 @@
 并计算单词'the'在每个文件中分别出现了多少次
 
 """
-fileBooks = "Example/58681-0.txt"
+fileBooks = "example/58681-0.txt"
 
 try:
     with open(fileBooks) as file_books:

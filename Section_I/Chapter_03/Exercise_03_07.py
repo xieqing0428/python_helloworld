@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_03_07.py
+@file: exercise_03_07.py
 @time: 2019-01-14 20:27
 
 3-7 缩减名单：

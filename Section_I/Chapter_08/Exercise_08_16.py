@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_08_16.py
+@file: exercise_08_16.py
 @time: 2019-01-17 21:54
 
 8-16 导入：
@@ -17,18 +17,18 @@ import module_name as mn
 from module_name import *
 
 """
-import HelloWorld.Section_I.Chapter_08.Example.printing_functions
-from HelloWorld.Section_I.Chapter_08.Example.printing_functions \
+import helloworld.section_i.chapter_08.example.printing_functions
+from helloworld.section_i.chapter_08.example.printing_functions \
     import show_completed_models
-from HelloWorld.Section_I.Chapter_08.Example.printing_functions \
+from helloworld.section_i.chapter_08.example.printing_functions \
     import print_models as fn
-import HelloWorld.Section_I.Chapter_08.Example.printing_functions as module
-from HelloWorld.Section_I.Chapter_08.Example.printing_functions import *
+import helloworld.section_i.chapter_08.example.printing_functions as module
+from helloworld.section_i.chapter_08.example.printing_functions import *
 
 unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
 completed_models = []
 
-HelloWorld.Section_I.Chapter_08.Example.printing_functions.print_models(unprinted_designs, completed_models)
+helloworld.section_i.chapter_08.example.printing_functions.print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
 module.print_models(unprinted_designs, completed_models)
 module.show_completed_models(completed_models)

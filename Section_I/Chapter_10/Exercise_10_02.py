@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_02.py
+@file: exercise_10_02.py
 @time: 2019-01-13 18:10
 
 10-2 C语言学习笔记：可使用方法replace()将字符串中的特定单词都替换为另一个单词。
@@ -18,7 +18,7 @@
 
 """
 
-fileName = 'Example/learning_python.txt'
+fileName = 'example/learning_python.txt'
 
 with open(fileName) as file_object:
     for line in file_object:

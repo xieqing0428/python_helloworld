@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_03_04.py
+@file: exercise_03_04.py
 @time: 2019-01-14 20:18
 
 3-4 嘉宾名单：

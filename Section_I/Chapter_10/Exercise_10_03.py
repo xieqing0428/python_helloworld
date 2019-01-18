@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_10_03.py
+@file: exercise_10_03.py
 @time: 2019-01-13 18:20
 
 10-3 访客：
@@ -11,7 +11,7 @@
 
 """
 
-fileName = 'Example/guest.txt'
+fileName = 'example/guest.txt'
 
 guestName = input("请输入您的姓名：")
 with open(fileName, 'w') as file_object:

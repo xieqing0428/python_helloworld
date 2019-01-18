@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_02_10.py
+@file: exercise_02_10.py
 @time: 2019-01-14 19:52
 
 """

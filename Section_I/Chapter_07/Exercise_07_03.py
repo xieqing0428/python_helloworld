@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: Exercise_07_03.py
+@file: exercise_07_03.py
 @time: 2019-01-16 22:14
 
 7-3 10的整数倍：
