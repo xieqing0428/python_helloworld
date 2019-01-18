@@ -71,8 +71,9 @@
   +     unittest.main()
   ```
   直接使用`unittest.main()`会报错
----  
-  ### 第二部分
+  
+---
+  ### 第二部分:
   ### 项目源码
   #### [项目1：外星人飞船](Section_II/Project_A/alien_invasion):
   PS: conda和pip真是大坑啊, 安装了anaconda3之后，貌似pip命令就默认下载到conda的目录下，而pip3则是默认下载到osx的默认python3目录下……
