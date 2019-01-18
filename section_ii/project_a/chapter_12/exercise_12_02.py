@@ -12,8 +12,6 @@
 或将屏幕背景色设置为该图像的背景色
 
 """
-import sys
-
 import pygame
 
 from python_helloworld.section_ii.project_a.chapter_12.example.bird import Bird
