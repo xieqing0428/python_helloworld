@@ -11,7 +11,7 @@
 在print_models.py的开头编写一条import语句，并修改这个文件以使用导入的函数
 
 """
-import helloworld.section_i.chapter_08.example.printing_functions as module
+import python_helloworld.section_i.chapter_08.example.printing_functions as module
 
 unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
 completed_models = []

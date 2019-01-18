@@ -17,18 +17,18 @@ import module_name as mn
 from module_name import *
 
 """
-import helloworld.section_i.chapter_08.example.printing_functions
-from helloworld.section_i.chapter_08.example.printing_functions \
+import python_helloworld.section_i.chapter_08.example.printing_functions
+from python_helloworld.section_i.chapter_08.example.printing_functions \
     import show_completed_models
-from helloworld.section_i.chapter_08.example.printing_functions \
+from python_helloworld.section_i.chapter_08.example.printing_functions \
     import print_models as fn
-import helloworld.section_i.chapter_08.example.printing_functions as module
-from helloworld.section_i.chapter_08.example.printing_functions import *
+import python_helloworld.section_i.chapter_08.example.printing_functions as module
+from python_helloworld.section_i.chapter_08.example.printing_functions import *
 
 unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
 completed_models = []
 
-helloworld.section_i.chapter_08.example.printing_functions.print_models(unprinted_designs, completed_models)
+python_helloworld.section_i.chapter_08.example.printing_functions.print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
 module.print_models(unprinted_designs, completed_models)
 module.show_completed_models(completed_models)

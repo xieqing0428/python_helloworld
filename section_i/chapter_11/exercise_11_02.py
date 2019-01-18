@@ -21,7 +21,7 @@
 
 """
 import unittest
-from helloworld.section_i.chapter_11.example.city_functions_plus import \
+from python_helloworld.section_i.chapter_11.example.city_functions_plus import \
     city_country, \
     city_country_now, city_country_population
 

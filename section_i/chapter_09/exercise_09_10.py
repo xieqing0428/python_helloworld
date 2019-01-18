@@ -13,7 +13,7 @@
 
 """
 
-from helloworld.section_i.chapter_09.example.exercise_plus import Restaurant
+from python_helloworld.section_i.chapter_09.example.exercise_plus import Restaurant
 
 restaurant = Restaurant('饭店', '炒菜')
 restaurant.describe_restaurant()

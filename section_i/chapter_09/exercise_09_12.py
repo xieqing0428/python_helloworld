@@ -13,7 +13,7 @@
 
 """
 
-from helloworld.section_i.chapter_09.example.exercise_extend import Admin
+from python_helloworld.section_i.chapter_09.example.exercise_extend import Admin
 
 admin = Admin('xie', 'qing', 'dalao')
 admin.privileges.show_privileges()
