@@ -87,6 +87,8 @@ Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
 Requirement already satisfied: pygame in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (1.9.4)
 
   ```
+  1. ship_speed_factor 设置小数，但是centerx等属性只能接受整数，所以步进应该是1, 2, 1, 2……设置了连续移动所以看不太出来
+  
   #### [项目2：数据可视化]():
   #### [项目3：Web应用程序]():
   ###### 持续更新中……

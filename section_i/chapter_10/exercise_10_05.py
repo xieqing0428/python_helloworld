@@ -12,7 +12,7 @@
 
 """
 
-fileName = 'example/why_coding.txt'
+fileName = 'example_2/why_coding.txt'
 
 print("您为什么喜欢编程呢？(如需退出请输入Exit) \n")
 n = 0

@@ -16,7 +16,7 @@
 
 """
 
-fileName = 'example/learning_python.txt'
+fileName = 'example_2/learning_python.txt'
 
 with open(fileName) as file_object:
     contents = file_object.read()

@@ -16,7 +16,7 @@ class Bird:
         self.screen = screen
 
         # 加载图像 获取外矩形
-        self.image = pygame.image.load('example/images/bird.png')
+        self.image = pygame.image.load('example_2/images/bird.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 

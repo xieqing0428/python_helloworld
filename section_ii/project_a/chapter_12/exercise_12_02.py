@@ -14,10 +14,10 @@
 """
 import pygame
 
-from python_helloworld.section_ii.project_a.chapter_12.example.bird import Bird
-import python_helloworld.section_ii.project_a.chapter_12.example\
+from python_helloworld.section_ii.project_a.chapter_12.example_2.bird import Bird
+import python_helloworld.section_ii.project_a.chapter_12.example_2\
     .game_functions as gf
-from python_helloworld.section_ii.project_a.chapter_12.example.settings \
+from python_helloworld.section_ii.project_a.chapter_12.example_2.settings \
     import Settings
 
 

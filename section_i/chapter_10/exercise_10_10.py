@@ -24,7 +24,7 @@
 并计算单词'the'在每个文件中分别出现了多少次
 
 """
-fileBooks = "example/58681-0.txt"
+fileBooks = "example_2/58681-0.txt"
 
 try:
     with open(fileBooks) as file_books:
