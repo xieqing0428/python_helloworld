@@ -87,7 +87,7 @@ Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
 Requirement already satisfied: pygame in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (1.9.4)
 
   ```
-1. ship_speed_factor 设置小数，但是centerx等属性只能接受整数，所以步进应该是1, 2, 1, 2……设置了连续移动所以看不太出来
+  1. ship_speed_factor 设置小数，但是centerx等属性只能接受整数，所以步进应该是1, 2, 1, 2……设置了连续移动所以看不太出来
 
   ##### [13-4](section_ii/project_a/chapter_13/exercise_13_04.py):
   设置雨滴超出屏幕后新建雨滴对象  
@@ -116,7 +116,7 @@ Requirement already satisfied: pygame in /Library/Frameworks/Python.framework/Ve
   问题：原本在update_rains(rain_settings, rains)中remove对象后直接使用create_fleet
   (rain_settings, 
   screen, rains, single=True)
-  ，但是有一个问题，因为遍历rains是一个过程，remove操作不是同步的，而创建单行对象又不只是创建一个对象，会造成重复  
+  ，但是有一个问题，因为遍历rains是一个过程，remove操作不是同步的，而创建单行对象又不只是创建一个对象，会造成重复。  
   解决：在settings中添加一个属性self.rain_create_allowed用于控制新建单行对象操作，具体如下
   
   [game_functions.py](section_ii/project_a/chapter_13/example_4/game_functions.py):
@@ -139,7 +139,7 @@ Requirement already satisfied: pygame in /Library/Frameworks/Python.framework/Ve
   ```
   [settings.py](section_ii/project_a/chapter_13/example_4/settings.py):
   ```diff
-  + # 允许新建雨滴对象（用于超出屏幕范围后删除对象及新建对象）
+  +     # 允许新建雨滴对象（用于超出屏幕范围后删除对象及新建对象）
   +     self.rain_create_allowed = False
   ```
   [exercise_13_04.py](section_ii/project_a/chapter_13/exercise_13_04.py):
