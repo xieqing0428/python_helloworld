@@ -3,17 +3,23 @@
 """
 
 @author: Alessa0
-@file: exercise_13_01.py
-@time: 2019-01-19 22:44
+@file: exercise_13_02.py
+@time: 2019-01-20 13:20
 
-13-1 星星：
-找一幅星星图像，并在屏幕上显示一系列整齐排列的星星
+13-2 更逼真的星星：
+为让星星的分布更逼真，可随机地放置星星。本书前面说过，可像下面这样来生成随机数：
+
+from random import randint
+random_number = randint(-10,10)
+
+上述代码返回一个-10和10之间的随机整数。
+在为完成练习13-1而编写的程序中，随机地调整每颗星星的位置。
 
 """
 import pygame
-import python_helloworld.section_ii.project_a.chapter_13.example_1\
+import python_helloworld.section_ii.project_a.chapter_13.example_2\
     .game_functions as gf
-from python_helloworld.section_ii.project_a.chapter_13.example_1.settings \
+from python_helloworld.section_ii.project_a.chapter_13.example_2.settings \
     import Settings
 from pygame.sprite import Group
 
@@ -35,7 +41,3 @@ def run_game():
 
 
 run_game()
-
-
-
-

@@ -10,10 +10,12 @@
 
 """
 import sys
+
 import pygame
-from python_helloworld.section_ii.project_a.alien_invasion.bullet import Bullet
+
 from python_helloworld.section_ii.project_a.alien_invasion.alien \
     import Alien
+from python_helloworld.section_ii.project_a.alien_invasion.bullet import Bullet
 
 
 def check_events(ai_settings, screen, ship, bullets):
@@ -96,7 +98,7 @@ def create_alien(ai_settings, screen, aliens, alien_number, row_number):
 def get_number_rows(ai_settings, ship_height, alien_height):
     """计算屏幕可容纳多少行外星人"""
     available_space_y = (ai_settings.screen_height -
-                               (3 * alien_height) - ship_height)
+                         3 * alien_height - ship_height)
     number_rows = int(available_space_y / (2 * alien_height))
     return number_rows
 
@@ -114,3 +116,23 @@ def create_fleet(ai_settings, screen, ship, aliens):
         for alien_number in range(number_aliens_x):
             # 创建一个外星人并将其加入当前行
             create_alien(ai_settings, screen, aliens, alien_number, number_row)
+
+
+def change_fleet_direction(ai_settings, aliens):
+    for alien in aliens.sprites():
+        alien.rect.y += ai_settings.fleet_drop_speed
+    ai_settings.fleet_direction *= -1
+
+
+def check_fleet_edges(ai_settings, aliens):
+    for alien in aliens.sprites():
+        if alien.check_edges():
+            change_fleet_direction(ai_settings, aliens)
+            break
+
+
+def update_aliens(ai_settings, aliens):
+    """更新外星人群中所有外星人的位置"""
+    check_fleet_edges(ai_settings, aliens)
+    aliens.update()
+
