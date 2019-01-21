@@ -3,21 +3,29 @@
 """
 
 @author: Alessa0
-@file: alien_invasion.py
-@time: 2019-01-18 10:40
+@file: exercise_14_01.py
+@time: 2019-01-21 20:47
+
+14-1 按P开始新游戏：
+鉴于游戏《外星人入侵》使用键盘来控制飞船，最好让玩家也能够通过按键来开始游戏。
+请添加让玩家在按P时开始游戏的代码。
+也许这样做会有所帮助：将check_play_button()的一些代码提取出来，
+放到一个名为start_game()的函数中，
+并在check_play_button()和check_keydown_events()中调用这个函数
 
 """
 import pygame
 from pygame.sprite import Group
 
-import python_helloworld.section_ii.project_a.alien_invasion.game_functions \
-    as gf
-from python_helloworld.section_ii.project_a.alien_invasion.button import Button
-from python_helloworld.section_ii.project_a.alien_invasion.game_stats import \
-    GameStats
-from python_helloworld.section_ii.project_a.alien_invasion.settings \
+import python_helloworld.section_ii.project_a.chapter_14.example_1\
+    .game_functions as gf
+from python_helloworld.section_ii.project_a.chapter_14.example_1.button \
+    import Button
+from python_helloworld.section_ii.project_a.chapter_14.example_1.game_stats \
+    import GameStats
+from python_helloworld.section_ii.project_a.chapter_14.example_1.settings \
     import Settings
-from python_helloworld.section_ii.project_a.alien_invasion.ship \
+from python_helloworld.section_ii.project_a.chapter_14.example_1.ship \
     import Ship
 
 
