@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: rain.py
+@file: ball.py
 @time: 2019-01-20 13:00
 
 """

@@ -11,6 +11,7 @@ import pygame
 
 import python_helloworld.section_ii.project_a.alien_invasion.game_functions \
     as gf
+from python_helloworld.section_ii.project_a.alien_invasion.game_stats import GameStats
 from pygame.sprite import Group
 from python_helloworld.section_ii.project_a.alien_invasion.settings \
     import Settings
@@ -28,7 +29,8 @@ def run_game():
 
     # 创建飞船
     ship = Ship(ai_settings, screen)
-
+    # 创建一个用于存储游戏统计信息的实例
+    stats = GameStats(ai_settings)
     # 创建子弹编组
     bullets = Group()
     aliens = Group()
@@ -39,9 +41,10 @@ def run_game():
     # 开始游戏的主循环
     while True:
         gf.check_events(ai_settings, screen, ship, bullets)
-        ship.update()
-        gf.update_bullets(bullets)
-        gf.update_aliens(ai_settings, aliens)
+        if stats.game_active:
+            ship.update()
+            gf.update_bullets(ai_settings, screen, ship, aliens, bullets)
+            gf.update_aliens(ai_settings, stats, screen, ship, aliens, bullets)
         gf.update_screen(ai_settings, screen, ship, aliens, bullets)
 
 

@@ -113,11 +113,12 @@ Requirement already satisfied: pygame in /Library/Frameworks/Python.framework/Ve
                 create_rain(rain_settings, screen, rains, number_rain,
                             number_row)
   ```
-  问题：原本在update_rains(rain_settings, rains)中remove对象后直接使用create_fleet
+  问题： 原本在`update_rains(rain_settings, rains)`中remove对象后直接使用`create_fleet
   (rain_settings, 
-  screen, rains, single=True)
-  ，但是有一个问题，因为遍历rains是一个过程，remove操作不是同步的，而创建单行对象又不只是创建一个对象，会造成重复。  
-  解决：在settings中添加一个属性self.rain_create_allowed用于控制新建单行对象操作，具体如下
+  screen, rains, single=True)`
+  ，但是存在一个问题，因为遍历rains是一个过程，remove操作不是同步的，而创建单行对象又不只是创建一个对象，会造成重复。  
+    
+  解决： 在settings中添加一个属性`self.rain_create_allowed`用于控制新建单行对象操作，具体如下
   
   [game_functions.py](section_ii/project_a/chapter_13/example_4/game_functions.py):
   ```diff
@@ -125,8 +126,8 @@ Requirement already satisfied: pygame in /Library/Frameworks/Python.framework/Ve
   + def update_rains(rain_settings, screen, rains):
     """更新雨群中所有雨滴的位置"""
     rains.update()
+    
     # 删除消失的雨滴
-
     for rain in rains.copy():
   +     if rain.rect.top >= rain_settings.screen_height:
             rains.remove(rain)

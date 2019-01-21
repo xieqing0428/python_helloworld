@@ -3,28 +3,30 @@
 """
 
 @author: Alessa0
-@file: ship.py
+@file: hand.py
 @time: 2019-01-18 17:13
 
-负责管理飞船的大部分行为
+负责管理手掌的大部分行为
 
 """
 import pygame
+from pygame.sprite import Sprite
 
 
-class Ship:
+class Hand(Sprite):
 
-    def __init__(self, ai_settings, screen):
-        """初始化飞船并设置其位置"""
+    def __init__(self, ball_settings, screen):
+        """初始化手掌并设置其位置"""
+        super().__init__()
         self.screen = screen
-        self.ai_settings = ai_settings
+        self.ball_settings = ball_settings
 
-        # 加载飞船图像并获取外接矩形
-        self.image = pygame.image.load('images/ship.bmp')
+        # 加载手掌图像并获取外接矩形
+        self.image = pygame.image.load('example_5/images/hand.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
-        # 将每艘新飞船放在屏幕底部中央
+        # 将每艘新手掌放在屏幕底部中央
         self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
 
@@ -37,15 +39,11 @@ class Ship:
 
     def update(self):
         if self.moving_right and self.rect.right < self.screen_rect.right:
-            self.center += self.ai_settings.ship_speed_factor
+            self.center += self.ball_settings.hand_speed_factor
         if self.moving_left and self.rect.left > 0:
-            self.center -= self.ai_settings.ship_speed_factor
+            self.center -= self.ball_settings.hand_speed_factor
         self.rect.centerx = self.center
 
-    def center_ship(self):
-        """让飞船在屏幕上居中"""
-        self.center = self.screen_rect.centerx
-
     def blitme(self):
-        """在指定位置绘制飞船"""
+        """在指定位置绘制手掌"""
         self.screen.blit(self.image, self.rect)
