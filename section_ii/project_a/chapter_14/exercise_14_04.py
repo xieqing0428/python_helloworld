@@ -3,23 +3,29 @@
 """
 
 @author: Alessa0
-@file: alien_invasion.py
-@time: 2019-01-18 10:40
+@file: exercise_14_04.py
+@time: 2019-01-22 09:19
+
+14-4 历史最高分：
+每当玩家关闭并重新开始游戏《外星人入侵》时，最高分都将被重置。
+请修复这个问题，
+调用sys.exit()前将最高分写入文件，并当在GameStats中初始化最高分时从文件中读取它
 
 """
 import pygame
 from pygame.sprite import Group
 
-import python_helloworld.section_ii.project_a.alien_invasion.game_functions \
-    as gf
-from python_helloworld.section_ii.project_a.alien_invasion.button import Button
-from python_helloworld.section_ii.project_a.alien_invasion.game_stats import \
-    GameStats
-from python_helloworld.section_ii.project_a.alien_invasion.scoreboard \
+import python_helloworld.section_ii.project_a.chapter_14.example_4\
+    .game_functions as gf
+from python_helloworld.section_ii.project_a.chapter_14.example_4.button \
+    import Button
+from python_helloworld.section_ii.project_a.chapter_14.example_4.game_stats \
+    import GameStats
+from python_helloworld.section_ii.project_a.chapter_14.example_4.scoreboard \
     import Scoreboard
-from python_helloworld.section_ii.project_a.alien_invasion.settings \
+from python_helloworld.section_ii.project_a.chapter_14.example_4.settings \
     import Settings
-from python_helloworld.section_ii.project_a.alien_invasion.ship \
+from python_helloworld.section_ii.project_a.chapter_14.example_4.ship \
     import Ship
 
 

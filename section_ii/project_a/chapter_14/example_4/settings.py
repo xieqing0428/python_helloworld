@@ -20,6 +20,7 @@ class Settings:
         self.screen_width = 1200
         self.screen_height = 800
         self.bg_color = (230, 230, 230)
+        self.score_store_filename = 'example_4/resources/score_high.txt'
 
         # 飞船设置
         self.ship_limit = 3
@@ -35,7 +36,6 @@ class Settings:
 
         # 以什么样的速度加快游戏节奏
         self.speedup_scale = 1.1
-
         self.score_scale = 1.5
 
         self.initialize_dynamic_settings()

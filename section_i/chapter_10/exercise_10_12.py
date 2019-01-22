@@ -15,7 +15,7 @@
 
 import json
 
-fileName = "example_2/f_nums.json"
+fileName = "example/f_nums.json"
 
 try:
     with open(fileName) as file_nums:

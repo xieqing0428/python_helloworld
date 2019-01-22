@@ -9,7 +9,7 @@
 """
 import pygame.font
 from pygame.sprite import Group
-from python_helloworld.section_ii.project_a.alien_invasion.ship import Ship
+from python_helloworld.section_ii.project_a.chapter_14.example_4.ship import Ship
 
 
 class Scoreboard:

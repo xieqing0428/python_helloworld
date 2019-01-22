@@ -13,7 +13,7 @@
 
 """
 
-fileName = 'example_2/guest_book.txt'
+fileName = 'example/guest_book.txt'
 
 while True:
     guestName = input("请输入您的姓名：(如需退出请输入Exit) \n")

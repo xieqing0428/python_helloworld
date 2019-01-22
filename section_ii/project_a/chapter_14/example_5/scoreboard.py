@@ -9,7 +9,8 @@
 """
 import pygame.font
 from pygame.sprite import Group
-from python_helloworld.section_ii.project_a.alien_invasion.ship import Ship
+from python_helloworld.section_ii.project_a.chapter_14.example_5.ship import \
+    Ship
 
 
 class Scoreboard:
@@ -27,6 +28,9 @@ class Scoreboard:
         self.font = pygame.font.SysFont(None, 48)
 
         # 准备包含最高得分和当前得分的图像
+        self.prep_images()
+
+    def prep_images(self):
         self.prep_score()
         self.prep_high_score()
         self.prep_level()

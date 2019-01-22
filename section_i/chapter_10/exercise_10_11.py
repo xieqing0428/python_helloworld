@@ -14,7 +14,7 @@
 """
 import json
 
-fileName = "example_2/f_nums.json"
+fileName = "example/f_nums.json"
 num = input("请输入你最喜欢的数字\n")
 
 with open(fileName, 'w') as file_nums:
