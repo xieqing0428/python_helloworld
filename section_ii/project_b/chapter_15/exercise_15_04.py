@@ -3,25 +3,26 @@
 """
 
 @author: Alessa0
-@file: exercise_15_03.py
-@time: 2019-01-23 00:19
+@file: exercise_15_04.py
+@time: 2019-01-23 00:30
 
-15-3 分子运动：
-修改rw_visual.py，将其中的plt.scatter()替换为plt.plot()。
-为模拟花粉在水滴表面的运动路径，
-向plt.plot()传递rw.x_values和rw.y_values，并指定实参值linewidth。
-使用5000个点而不是50 000个点
+15-4 改进的随机漫步：
+在类RandomWalk中，x_step和y_step是根据相同的条件生成的：
+从列表[1, -1]中随机地选择方向，并从列表[0, 1, 2, 3, 4]中随机地选择距离。
+请修改这些列表中的值，看看对随机漫步路径有何影响。
+尝试使用更长的距离选择列表，如0~8；
+或者将-1从 x 或 y 方向列表中删除
 
 """
 import matplotlib.pyplot as plt
 
-from python_helloworld.section_ii.project_b.chapter_15.example.random_walk_3 \
-    import RandomWalk
+from python_helloworld.section_ii.project_b.chapter_15.example\
+    .random_walk_4 import RandomWalkPlus
 
 # 只要程序处于活动状态，就不断地模拟随机漫步
 while True:
     # 创建一个RandomWalk实例，并将其包含的点都绘制出来
-    rw = RandomWalk()
+    rw = RandomWalkPlus()
     rw.fill_walk()
 
     # 设置绘图窗口的尺寸
@@ -37,7 +38,7 @@ while True:
     plt.axes().get_xaxis().set_visible(False)
     plt.axes().get_yaxis().set_visible(False)
 
-    plt.savefig('images/15-3.png', bbox_inches='tight')
+    plt.savefig('images/15-4.png', bbox_inches='tight')
     plt.show()
     keep_running = input("Make another walk? (y/n): ")
     if keep_running == 'n':

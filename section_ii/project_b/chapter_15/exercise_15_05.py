@@ -3,20 +3,26 @@
 """
 
 @author: Alessa0
-@file: exercise_15_03.py
-@time: 2019-01-23 00:19
+@file: exercise_15_05.py
+@time: 2019-01-23 21:56
 
-15-3 分子运动：
-修改rw_visual.py，将其中的plt.scatter()替换为plt.plot()。
-为模拟花粉在水滴表面的运动路径，
-向plt.plot()传递rw.x_values和rw.y_values，并指定实参值linewidth。
-使用5000个点而不是50 000个点
+15-5 重构：
+方法fill_walk()很长。
+请新建一个名为get_step()的方法，用于确定每次漫步的距离和方向，
+并计算这次漫步将如何移动。
+
+然后，在fill_walk()中调用get_step()两次：
+
+x_step = self.get_step()
+y_step = self.get_step()
+
+通过这样的重构，可缩小fill_walk()的规模，让这个方法阅读和理解起来更容易
 
 """
 import matplotlib.pyplot as plt
 
-from python_helloworld.section_ii.project_b.chapter_15.example.random_walk_3 \
-    import RandomWalk
+from python_helloworld.section_ii.project_b.chapter_15.example\
+    .random_walk_5 import RandomWalk
 
 # 只要程序处于活动状态，就不断地模拟随机漫步
 while True:
@@ -37,7 +43,7 @@ while True:
     plt.axes().get_xaxis().set_visible(False)
     plt.axes().get_yaxis().set_visible(False)
 
-    plt.savefig('images/15-3.png', bbox_inches='tight')
+    plt.savefig('images/15-5.png', bbox_inches='tight')
     plt.show()
     keep_running = input("Make another walk? (y/n): ")
     if keep_running == 'n':

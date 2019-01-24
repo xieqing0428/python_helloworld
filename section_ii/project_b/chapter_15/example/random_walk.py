@@ -3,7 +3,7 @@
 """
 
 @author: Alessa0
-@file: random_walk_3.py
+@file: random_walk.py
 @time: 2019-01-22 23:19
 
 模拟随机漫步
