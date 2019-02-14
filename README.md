@@ -151,6 +151,12 @@ Requirement already satisfied: pygame in /Library/Frameworks/Python.framework/Ve
   +     gf.update_rains(rain_settings, screen, rains)
         gf.update_screen(rain_settings, screen, rains)
   ```
-  #### [项目2：数据可视化]():
+  #### [项目2：数据可视化](section_ii/project_b/example/example_16):
+  ```Python
+  import matplotlib.pyplot as plt
+  # 设置刻度标记的大小
+  plt.tick_params(axis='both',which='major',labelsize=14)
+  ```
+  which一共3个参数[‘major’ ， ‘minor’ ，‘both’] 默认是major表示主刻度，后面分布为次刻度及主次刻度都显示.
   #### [项目3：Web应用程序]():
   ###### 持续更新中……

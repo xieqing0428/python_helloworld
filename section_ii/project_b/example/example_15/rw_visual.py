@@ -11,7 +11,7 @@
 """
 import matplotlib.pyplot as plt
 
-from python_helloworld.section_ii.project_b.example.random_walk import \
+from section_ii.project_b.example.example_15.random_walk import \
     RandomWalk
 
 # 只要程序处于活动状态，就不断地模拟随机漫步

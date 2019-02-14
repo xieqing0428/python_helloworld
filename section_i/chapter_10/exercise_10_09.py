@@ -11,7 +11,7 @@
 
 """
 
-fileErrors = "example/errors.txt"
+fileErrors = "example_15/errors.txt"
 
 try:
     with open(fileErrors) as file_errors:

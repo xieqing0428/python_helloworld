@@ -9,7 +9,7 @@
 掷D6骰子
 
 """
-from python_helloworld.section_ii.project_b.example.die import Die
+from section_ii.project_b.example.example_15.die import Die
 import pygal
 
 # 创建2个D6

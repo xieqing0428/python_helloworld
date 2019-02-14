@@ -18,7 +18,7 @@
 
 """
 
-fileName = 'example/learning_python.txt'
+fileName = 'example_15/learning_python.txt'
 
 with open(fileName) as file_object:
     for line in file_object:

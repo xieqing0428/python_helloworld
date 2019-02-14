@@ -18,9 +18,9 @@
 
 # 诶嘿嘿 10-8 幸运数字
 
-fileCats = "example/cats.txt"
-fileDogs = "example/dogs.txt"
-fileErrors = "example/errors.txt"
+fileCats = "example_15/cats.txt"
+fileDogs = "example_15/dogs.txt"
+fileErrors = "example_15/errors.txt"
 
 with open(fileCats) as file_cats:
     for line in file_cats:
